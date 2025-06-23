@@ -1,4 +1,4 @@
-// import Navbar from "./scenes/Navbar";
+import Navbar from "./scenes/Navbar";
 // import Landing from "./scenes/Landing";
 // import DotGroup from "./scenes/DotGroup";
 // import MySkills from "./scenes/MySkills";
@@ -32,18 +32,18 @@ function App() {
 
   return (
     <div className="app bg-deep-blue">
-      {/* <Navbar */}
-      {/* isTopOfPage={isTopOfPage}
+      <Navbar 
+      isTopOfPage={isTopOfPage}
       selectedPage={selectedPage}
       setSelectedPage={setSelectedPage}
-      /> */}
+      />
       <div className="w-5/6 mx-auto md:h-full">
-        {isDesktop && (
-          <DotGroup
-            selectedPage={selectedPage}
-            setSelectedPage={setSelectedPage}
-          />
-        )}
+        {/* {isDesktop && (
+          // <DotGroup
+          //   selectedPage={selectedPage}
+          //   setSelectedPage={setSelectedPage}
+          // />
+        )} */}
         <motion.div
           margin="0 0 -200px 0"
           amount="all"

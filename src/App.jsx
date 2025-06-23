@@ -2,7 +2,7 @@ import Navbar from "./scenes/Navbar";
 import Landing from "./scenes/Landing";
 import DotGroup from "./scenes/DotGroup";
 import MySkills from "./scenes/MySkills";
-// import LineGradient from "./components/LineGradient";
+import LineGradient from "./components/LineGradient";
 import Projects from "./scenes/Projects";
 import Contact from "./scenes/Contact";
 import Footer from "./scenes/Footer";
@@ -52,7 +52,7 @@ function App() {
           <Landing setSelectedPage={setSelectedPage} />
         </motion.div>
       </div>
-      {/* <LineGradient /> */}
+      <LineGradient />
       <div className="w-5/6 mx-auto md:h-full ">
         <motion.div
           margin="0 0 -200px 0"
@@ -62,7 +62,7 @@ function App() {
           <MySkills />
         </motion.div>
       </div>
-      {/* <LineGradient /> */}
+      <LineGradient />
       <div className="w-5/6 mx-auto">
         <motion.div
           margin="0 0 -200px 0"
@@ -72,7 +72,7 @@ function App() {
           <Projects />
         </motion.div>
       </div>
-      {/* <LineGradient /> */}
+      <LineGradient />
       <div className="w-5/6 mx-auto md:h-full">
         <motion.div
           margin="0 0 -200px 0"
@@ -82,7 +82,7 @@ function App() {
           <Testimonials />
         </motion.div>
       </div>
-      {/* <LineGradient /> */}
+      <LineGradient />
       <div className="w-5/6 mx-auto md:h-full">
         <motion.div
           margin="0 0 -200px 0"

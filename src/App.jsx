@@ -1,7 +1,7 @@
 import Navbar from "./scenes/Navbar";
 import Landing from "./scenes/Landing";
 import DotGroup from "./scenes/DotGroup";
-// import MySkills from "./scenes/MySkills";
+import MySkills from "./scenes/MySkills";
 // import LineGradient from "./components/LineGradient";
 // import Projects from "./scenes/Projects";
 import Contact from "./scenes/Contact";
@@ -59,7 +59,7 @@ function App() {
           amount="all"
           onViewportEnter={() => setSelectedPage("skills")}
         >
-          {/* <MySkills /> */}
+          <MySkills />
         </motion.div>
       </div>
       {/* <LineGradient /> */}

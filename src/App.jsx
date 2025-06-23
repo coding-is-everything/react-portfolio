@@ -1,5 +1,5 @@
 import Navbar from "./scenes/Navbar";
-// import Landing from "./scenes/Landing";
+import Landing from "./scenes/Landing";
 import DotGroup from "./scenes/DotGroup";
 // import MySkills from "./scenes/MySkills";
 // import LineGradient from "./components/LineGradient";
@@ -49,7 +49,7 @@ function App() {
           amount="all"
           onViewportEnter={() => setSelectedPage("home")}
         >
-          {/* <Landing setSelectedPage={setSelectedPage} /> */}
+          <Landing setSelectedPage={setSelectedPage} />
         </motion.div>
       </div>
       {/* <LineGradient /> */}

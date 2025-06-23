@@ -2,13 +2,13 @@ import Navbar from "./scenes/Navbar";
 import Landing from "./scenes/Landing";
 import DotGroup from "./scenes/DotGroup";
 import MySkills from "./scenes/MySkills";
-import LineGradient from "./components/LineGradient";
-import Projects from "./scenes/Projects";
+// import LineGradient from "./components/LineGradient";
+// import Projects from "./scenes/Projects";
 import Contact from "./scenes/Contact";
 import Footer from "./scenes/Footer";
 import useMediaQuery from "./hooks/useMediaQuery";
 import { useEffect, useState } from "react";
-import Testimonials from "./scenes/Testimonials";
+// import Testimonials from "./scenes/Testimonials";
 import { motion } from "framer-motion";
 
 function App() {
@@ -32,7 +32,7 @@ function App() {
 
   return (
     <div className="app bg-deep-blue">
-      <Navbar
+      <Navbar 
       isTopOfPage={isTopOfPage}
       selectedPage={selectedPage}
       setSelectedPage={setSelectedPage}
@@ -52,7 +52,7 @@ function App() {
           <Landing setSelectedPage={setSelectedPage} />
         </motion.div>
       </div>
-      <LineGradient />
+      {/* <LineGradient /> */}
       <div className="w-5/6 mx-auto md:h-full ">
         <motion.div
           margin="0 0 -200px 0"
@@ -62,27 +62,27 @@ function App() {
           <MySkills />
         </motion.div>
       </div>
-      <LineGradient />
+      {/* <LineGradient /> */}
       <div className="w-5/6 mx-auto">
         <motion.div
           margin="0 0 -200px 0"
           amount="all"
           onViewportEnter={() => setSelectedPage("projects")}
         >
-          <Projects />
+          {/* <Projects /> */}
         </motion.div>
       </div>
-      <LineGradient />
+      {/* <LineGradient /> */}
       <div className="w-5/6 mx-auto md:h-full">
         <motion.div
           margin="0 0 -200px 0"
           amount="all"
           onViewportEnter={() => setSelectedPage("testimonials")}
         >
-          <Testimonials />
+          {/* <Testimonials /> */}
         </motion.div>
       </div>
-      <LineGradient />
+      {/* <LineGradient /> */}
       <div className="w-5/6 mx-auto md:h-full">
         <motion.div
           margin="0 0 -200px 0"
